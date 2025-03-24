@@ -2,13 +2,14 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
-* The Populating Arrays program will create 5
-* different arrays of 10 random numbers
-* with 10 random numbers between 0 and 100 on a line separated by spaces.
-* It uses the Arrays.sort function to sort each array.
-* It displays the sorted arrays and for each sorted array, writes the average.
-*
-r* @version 1.0
+* The Linear Search program will populate an array of 10 random numbers.
+* Then it will sort it from smallest to largest.
+* Then it will ask the user for a number to search for.
+* If the number is found, it will display the index of the number.
+* It will keep asking the user for a number to search for until the user enters "q".
+* If the user enters "q", the program will display "Goodbye!"
+* If the user enters a number that is not an integer, the program will display "Try again."
+* @version 1.0
 * @since 2025-03-17
 */
 
